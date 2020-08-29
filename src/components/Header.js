@@ -1,20 +1,26 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import me2 from '../images/me2.jpg'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span> <img className="logo" src={me2}/> </span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Hello! I'm Sid</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+          <h3>
+            <b>
+              4th year Computer Science student @Simon Fraser University <br/><br/> 
+              Passionate about Full stack applications, Machine Learning, Server programming, and Fitness
+            </b>
+          </h3>
+          {/* <a href="https://html5up.net">HTML5 UP</a> and released
           <br />
           for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          <a href="https://html5up.net/license">Creative Commons</a> license. */}
         </p>
       </div>
     </div>
@@ -26,7 +32,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            <b>About Me</b>
           </button>
         </li>
         <li>
@@ -35,7 +41,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            <b>CV</b>
           </button>
         </li>
         <li>
@@ -44,7 +50,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            <b>Projects</b>
           </button>
         </li>
         <li>
@@ -53,7 +59,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            <b>Contact</b>
           </button>
         </li>
       </ul>

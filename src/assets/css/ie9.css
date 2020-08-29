@@ -14,6 +14,7 @@
 
 	#header .logo {
 		margin: 0 auto;
+		position: relative;
 	}
 
 	#header .content {
