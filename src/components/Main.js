@@ -33,14 +33,17 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span> */}
           <p>
-          <b>I’m a Computer Science major by day, an Athlete by evening, a functional wantrepreneur by midnight and a hustler always. </b><br/><br/>
-          <b>I'm truly an enthusiast about Technology, Open Source, Stock Market and Fitness. </b><br/><br/>
-          <b>If you can't find me, it's because I'm already coding, off to a hike, or studying for an exam.</b>
+          I’m a Computer Science major by day, an Athlete by evening, a functional wantrepreneur by midnight and a hustler always.<br/><br/>
+          I'm truly an enthusiast about Technology, Open Source, Stock Market and Fitness. <br/><br/>
+          If you can't find me, it's because I'm already coding, off to a hike, or studying for an exam.
+          <br/><br/>Currently seeking co-op opportunities to apply existing skills and learn new technologies
           <br/><br/><b>Find me on:</b>
           <br/><br/>
           <ul className="icons">
           <li>
               <a
+                target="_blank"
+                rel="noreferrer"
                 href="https://github.com/sidharthmiglani"
                 className="icon fa-github"
               >
@@ -78,22 +81,14 @@ class Main extends React.Component {
         >
           <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            {/* <img src={pic02} alt="" /> */}
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            Currently seeking co-op oppurtunities in computer science to apply existing skills
+
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            <li>Previously worked at <a a target="_blank" rel="noreferrer" href="http://www.glentel.com/home">Glentel</a> as <b>Network Administrator intern</b> (08/2019 - 04/2020)</li>
           </p>
           {close}
         </article>
@@ -105,19 +100,33 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
-          <span className="image main">
+          <h2 className="major">Projects</h2>
+          {/* <span className="image main">
             <img src={pic03} alt="" />
-          </span>
+          </span> */}
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Worked on projects, both individual and in collaboration with teams to explore new technologies and apply them to build meaningful applications. 
+            <br></br><br></br>
+            Code for all projects can be found <b><a target="_blank" rel="noreferrer" href="https://github.com/sidharthmiglani">here</a></b>
+            <br/><br/> Recent projects:<br/><br/>
+            >> &nbsp; <b><i><a target="_blank" rel="noreferrer" href="https://github.com/sidharthmiglani">Polyglot (Web)</a> :</i></b>&nbsp; A single system that uses multiple languages to do it's work. Independently designed and built a web-based system that establishes
+            connection b/w it's client and server via REST api to exchange data. Calculation on the server is then carried out concurrently in Golang using a foreign function interface.
+            <br/><br/>Implemented frontend with <b>React</b>, Server in <b>Python Django</b> and utilized <b>ctypes</b> python library to establish cross language communication.
+            <br/><br/>
+            >> &nbsp; <b><i><a target="_blank" rel="noreferrer" href="https://github.com/sidharthmiglani/Workout-Tracker">Workout Tracker (Web)</a>:</i></b> A full stack web application that lets users sign up and track their workouts. Built using React, Express.js, Node.js, MongoDB.
+            <br/><br/>
+            >> &nbsp; <b><i>Tic-Tac-Toe Game agent (AI):</i> </b>
+            <br/><br/>
+            >> &nbsp; <b><i>S-talk chat app (Software)</i> </b>
+            <br/><br/> 
+            >> &nbsp; <b><i> Portfolio (This website):</i>  </b> Built with GatsbyJS, a static progressive web app framework based on React. Deployed and hosted on Netlify.
           </p>
+          {/* <a
+                target="_blank"
+                
+                href="https://github.com/sidharthmiglani"
+                className="icon fa-github"
+              ></a> */}
           {close}
         </article>
 
@@ -151,28 +160,36 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
+          <p><b> Alternatively, email me at &nbsp;&nbsp;>> &nbsp;<a target="_blank" rel="noreferrer" href = "mailto: smiglani@sfu.ca">smiglani@sfu.ca</a></b>
+            
+          </p>
+        
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                target="_blank" 
+                rel="noreferrer"
+                href="https://twitter.com/sid_miglani"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="https://codebushi.com" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sidharth-miglani/" className="icon fa-linkedin">
+                <span className="label">Linkedin</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                target="_blank" 
+                rel="noreferrer"
+                href="https://github.com/sidharthmiglani"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>

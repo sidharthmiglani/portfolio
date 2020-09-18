@@ -14,7 +14,7 @@ const Header = props => (
           <h3>
             <b>
               4th year Computer Science student @Simon Fraser University <br/><br/> 
-              Passionate about Full stack applications, Machine Learning, Server programming, and Fitness
+              Passionate about Full stack applications, Machine Learning, Blockchain, and Fitness
             </b>
           </h3>
           {/* <a href="https://html5up.net">HTML5 UP</a> and released
@@ -41,7 +41,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            <b>CV</b>
+            <b>Work</b>
           </button>
         </li>
         <li>
